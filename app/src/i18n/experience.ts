@@ -1,0 +1,268 @@
+/** Quiz, shop, assistant and bonus-notification copy in every app language. */
+export const experienceCopy = {
+  en: {
+    experience: {
+      transferQuestion: "What should you check before sending money?",
+      transferA: "The total cost and recipient details",
+      transferB: "Only the advertised fee",
+      transferRetry:
+        "Check both the total cost and the recipient. A low advertised fee can hide exchange-rate costs.",
+
+      retry: "Try again",
+      knowledgeCheck: "Knowledge check",
+      quizHint: "Choose the answer that feels right.",
+      newLesson: "New lesson added to your path!",
+      newLessonLabel: "New lesson added: {{title}}",
+      dismiss: "Dismiss notification",
+      dismissHint: "Close this notice and keep the lesson in your path.",
+      youAsked: "An extra lesson for you.",
+    },
+    shopScreen: {
+      intro: "Use your coins for helpful items and new ways to learn.",
+      essentials: "Essentials",
+      essentialsSub: "Keep your learning going.",
+      outfits: "Kiko Outfits",
+      outfitsSub: "Explore looks from around the world.",
+      lessons: "New Lessons",
+      lessonsSub: "Explore a topic you care about.",
+      transferTitle: "Sending Money Abroad",
+      transferSub: "Learn to compare costs and send money safely.",
+      new: "NEW",
+      purchased: "{{item}} added to your collection!",
+      notEnough: "Complete lessons to earn more coins.",
+      owned: "Owned",
+      price: "{{count}} coins",
+      equip: "Wear it",
+      equipped: "Wearing",
+      equipHint: "Choose this outfit for Kiko.",
+      buyHint: "Use your learning coins for this item.",
+      openLesson: "Open the extra lesson",
+      open: "Open",
+      items: {
+        freeze: {
+          title: "Streak Freeze",
+          description: "Keep a freeze in your collection.",
+        },
+        heart: {
+          title: "Extra Heart",
+          description: "Get one extra heart for lessons.",
+        },
+        "outfit-asia": {
+          title: "Asian Adventurer",
+          description: "A new look for Kiko.",
+        },
+        "outfit-africa": {
+          title: "African Trailblazer",
+          description: "A new look for Kiko.",
+        },
+        "outfit-europe": {
+          title: "European Wanderer",
+          description: "A new look for Kiko.",
+        },
+        transfer: {
+          title: "Sending Money Abroad",
+          description: "Compare costs and safe transfer options.",
+        },
+      },
+    },
+    askScreen: {
+      title: "Ask Kiko",
+      subtitle: "Your personal money guide.",
+      questionBenefit: "Ask any question",
+      answerBenefit: "Simple, clear answers",
+      lessonBenefit: "Turn it into a lesson",
+      record: "Record a question",
+      stop: "Stop recording",
+      recordHint: "Start or stop recording your question.",
+      listening: "Listening…",
+      thinking: "Thinking…",
+      ready: "Speak or type your question.",
+      input: "Your question for Kiko",
+      inputHint: "Type a money question.",
+      permissionDenied:
+        "Microphone access is off. You can still type your question.",
+      voiceUnavailable:
+        "Voice transcription is unavailable. Type your question instead.",
+      exampleQuestion: "How do I send money to my mom in another country?",
+      exampleAnswer:
+        "Compare a bank transfer with a trusted money-transfer service. Check the total fee, exchange rate, and recipient details before sending. Keep your PIN private.",
+    },
+  },
+  es: {
+    experience: {
+      transferQuestion: "¿Qué debes revisar antes de enviar dinero?",
+      transferA: "El costo total y los datos del destinatario",
+      transferB: "Solo la comisión anunciada",
+      transferRetry:
+        "Revisa el costo total y al destinatario. Una comisión baja puede ocultar costos en el tipo de cambio.",
+
+      retry: "Intentar de nuevo",
+      knowledgeCheck: "Comprueba tus conocimientos",
+      quizHint: "Elige la respuesta que creas correcta.",
+      newLesson: "¡Nueva lección añadida a tu ruta!",
+      newLessonLabel: "Nueva lección: {{title}}",
+      dismiss: "Cerrar notificación",
+      dismissHint: "Cierra el aviso y conserva la lección.",
+      youAsked: "Una lección extra para ti.",
+    },
+    shopScreen: {
+      intro:
+        "Usa tus monedas para conseguir objetos útiles y nuevas formas de aprender.",
+      essentials: "Esenciales",
+      essentialsSub: "Sigue aprendiendo.",
+      outfits: "Trajes de Kiko",
+      outfitsSub: "Descubre estilos de todo el mundo.",
+      lessons: "Nuevas lecciones",
+      lessonsSub: "Explora un tema que te interese.",
+      transferTitle: "Enviar dinero al extranjero",
+      transferSub: "Compara costos y envía dinero de forma segura.",
+      new: "NUEVO",
+      purchased: "¡{{item}} añadido a tu colección!",
+      notEnough: "Completa lecciones para ganar más monedas.",
+      owned: "Lo tienes",
+      price: "{{count}} monedas",
+      equip: "Usar",
+      equipped: "En uso",
+      equipHint: "Elige este traje para Kiko.",
+      buyHint: "Usa tus monedas de aprendizaje para conseguirlo.",
+      openLesson: "Abre la lección extra",
+      open: "Abrir",
+      items: {
+        freeze: {
+          title: "Protector de racha",
+          description: "Guarda un protector en tu colección.",
+        },
+        heart: {
+          title: "Corazón extra",
+          description: "Consigue un corazón extra para las lecciones.",
+        },
+        "outfit-asia": {
+          title: "Aventurero asiático",
+          description: "Un nuevo estilo para Kiko.",
+        },
+        "outfit-africa": {
+          title: "Explorador africano",
+          description: "Un nuevo estilo para Kiko.",
+        },
+        "outfit-europe": {
+          title: "Viajero europeo",
+          description: "Un nuevo estilo para Kiko.",
+        },
+        transfer: {
+          title: "Enviar dinero al extranjero",
+          description: "Compara costos y opciones seguras.",
+        },
+      },
+    },
+    askScreen: {
+      title: "Pregunta a Kiko",
+      subtitle: "Tu guía personal sobre dinero.",
+      questionBenefit: "Haz una pregunta",
+      answerBenefit: "Respuestas sencillas",
+      lessonBenefit: "Crea una lección",
+      record: "Grabar una pregunta",
+      stop: "Detener grabación",
+      recordHint: "Empieza o detén la grabación de tu pregunta.",
+      listening: "Escuchando…",
+      thinking: "Pensando…",
+      ready: "Habla o escribe tu pregunta.",
+      input: "Tu pregunta para Kiko",
+      inputHint: "Escribe una pregunta sobre dinero.",
+      permissionDenied:
+        "El micrófono está desactivado. Puedes escribir tu pregunta.",
+      voiceUnavailable:
+        "La transcripción no está disponible. Escribe tu pregunta.",
+      exampleQuestion: "¿Cómo envío dinero a mi mamá en otro país?",
+      exampleAnswer:
+        "Compara una transferencia bancaria con un servicio de transferencias de confianza. Revisa la comisión total, el tipo de cambio y los datos del destinatario. No compartas tu PIN.",
+    },
+  },
+  sw: {
+    experience: {
+      transferQuestion: "Unapaswa kuangalia nini kabla ya kutuma pesa?",
+      transferA: "Gharama yote na taarifa za mpokeaji",
+      transferB: "Ada iliyotangazwa pekee",
+      transferRetry:
+        "Angalia gharama yote na mpokeaji. Ada ndogo inaweza kuficha gharama za ubadilishaji.",
+
+      retry: "Jaribu tena",
+      knowledgeCheck: "Pima ujuzi wako",
+      quizHint: "Chagua jibu unalofikiri ni sahihi.",
+      newLesson: "Somo jipya limeongezwa kwenye njia yako!",
+      newLessonLabel: "Somo jipya: {{title}}",
+      dismiss: "Funga taarifa",
+      dismissHint: "Funga taarifa na uhifadhi somo kwenye njia yako.",
+      youAsked: "Somo la ziada kwa ajili yako.",
+    },
+    shopScreen: {
+      intro: "Tumia sarafu kupata vitu muhimu na njia mpya za kujifunza.",
+      essentials: "Vitu Muhimu",
+      essentialsSub: "Endelea kujifunza.",
+      outfits: "Mavazi ya Kiko",
+      outfitsSub: "Chunguza mitindo kutoka duniani kote.",
+      lessons: "Masomo Mapya",
+      lessonsSub: "Chunguza mada inayokuvutia.",
+      transferTitle: "Kutuma Pesa Nje ya Nchi",
+      transferSub: "Linganisha gharama na utume pesa kwa usalama.",
+      new: "JIPYA",
+      purchased: "{{item}} imeongezwa kwenye mkusanyiko wako!",
+      notEnough: "Kamilisha masomo kupata sarafu zaidi.",
+      owned: "Unayo",
+      price: "Sarafu {{count}}",
+      equip: "Vaa",
+      equipped: "Imevaliwa",
+      equipHint: "Chagua vazi hili kwa Kiko.",
+      buyHint: "Tumia sarafu zako za kujifunza kupata hiki.",
+      openLesson: "Fungua somo la ziada",
+      open: "Fungua",
+      items: {
+        freeze: {
+          title: "Kinga ya mfululizo",
+          description: "Hifadhi kinga kwenye mkusanyiko wako.",
+        },
+        heart: {
+          title: "Moyo wa ziada",
+          description: "Pata moyo mmoja zaidi kwa masomo.",
+        },
+        "outfit-asia": {
+          title: "Msafiri wa Asia",
+          description: "Mwonekano mpya wa Kiko.",
+        },
+        "outfit-africa": {
+          title: "Mvumbuzi wa Afrika",
+          description: "Mwonekano mpya wa Kiko.",
+        },
+        "outfit-europe": {
+          title: "Msafiri wa Ulaya",
+          description: "Mwonekano mpya wa Kiko.",
+        },
+        transfer: {
+          title: "Kutuma Pesa Nje ya Nchi",
+          description: "Linganisha gharama na njia salama.",
+        },
+      },
+    },
+    askScreen: {
+      title: "Uliza Kiko",
+      subtitle: "Mwongozo wako wa pesa.",
+      questionBenefit: "Uliza swali",
+      answerBenefit: "Majibu rahisi",
+      lessonBenefit: "Tengeneza somo",
+      record: "Rekodi swali",
+      stop: "Acha kurekodi",
+      recordHint: "Anza au acha kurekodi swali lako.",
+      listening: "Ninasikiliza…",
+      thinking: "Ninafikiria…",
+      ready: "Sema au andika swali lako.",
+      input: "Swali lako kwa Kiko",
+      inputHint: "Andika swali kuhusu pesa.",
+      permissionDenied:
+        "Ruhusa ya maikrofoni imezimwa. Unaweza kuandika swali lako.",
+      voiceUnavailable:
+        "Unukuzi wa sauti haupatikani. Andika swali lako badala yake.",
+      exampleQuestion: "Ninatumaje pesa kwa mama yangu katika nchi nyingine?",
+      exampleAnswer:
+        "Linganisha uhamisho wa benki na huduma ya kutuma pesa inayoaminika. Angalia ada yote, kiwango cha ubadilishaji na taarifa za mpokeaji. Weka PIN yako siri.",
+    },
+  },
+} as const;

@@ -1,0 +1,21 @@
+{
+  "country": "US",
+  "language": "es",
+  "life_stage": "parent",
+  "goal": "handle_emergencies",
+  "comfort": 1,
+  "accessibility": {
+    "read_aloud": true,
+    "voice_mode": true,
+    "simple_mode": true,
+    "large_text": false
+  },
+  "confidence": {
+    "accounts": 0.5,
+    "saving": 0.25,
+    "borrowing": 0.0,
+    "scams": 0.75,
+    "budget": 0.25
+  },
+  "savings_habit": "none"
+}

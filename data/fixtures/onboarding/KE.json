@@ -1,0 +1,21 @@
+{
+  "country": "KE",
+  "language": "sw",
+  "life_stage": "first_job",
+  "goal": "stay_safe_online",
+  "comfort": 3,
+  "accessibility": {
+    "read_aloud": true,
+    "voice_mode": false,
+    "simple_mode": false,
+    "large_text": false
+  },
+  "confidence": {
+    "accounts": 0.75,
+    "saving": 0.75,
+    "borrowing": 0.5,
+    "scams": 0.25,
+    "budget": 0.5
+  },
+  "savings_habit": "none"
+}
